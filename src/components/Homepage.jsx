@@ -20,6 +20,7 @@ const Homepage = () => {
     <>
       <Title level={2} className="heading">Global Crypto Stats</Title>
       <Row gutter={[32, 32]}>
+        {console.log(data)}
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
         <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
         <Col span={12}><Statistic title="Total Market Cap:" value={`$${millify(globalStats.totalMarketCap)}`} /></Col>

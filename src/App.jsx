@@ -5,6 +5,7 @@ import { Layout, Typography, Space } from 'antd';
 import { Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
+const year = new Date().getFullYear();
 const App = () => (
   <div className="app">
     <div className="navbar">
@@ -30,12 +31,7 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
-          <Link to="/">
-            Cryptoverse Inc.
-          </Link> <br />
-          All Rights Reserved.
-        </Typography.Title>
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © {year} - All Rights Reserved</Typography.Title>
         <Space>
           <Link to="/">Home</Link>
           <Link to="/news">News</Link>

@@ -4,7 +4,7 @@ Track stats on cryptocurrencies
 
 This is a simple react app project from [Adrian Hajdin - JavaScript Mastery's React & API course](https://github.com/adrianhajdin/project_cryptoverse)
 
-I wanted to explore React using Ant Design and data visualization using Chart.js working with APIs via axios. This site is a simple ad-and-tracking-free resource to keep an eye on the big movments of the major coins.
+I wanted to explore React using Ant Design and data visualization using Chart.js working with APIs via axios. This site is a simple ad-and-tracking-free resource to keep an eye on the big movements of the major coins.
 
 ## Summary 
 

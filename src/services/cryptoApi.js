@@ -7,6 +7,7 @@ const cryptoApiHeaders = {
 
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
 
+console.log(process.env.REACT_APP_CRYPTO_API_URL);
 export const cryptoApi = createApi({
     reducerPath: 'cryptpApi',
     baseQuery: fetchBaseQuery({ baseUrl: process.env.REACT_APP_CRYPTO_API_URL }),
